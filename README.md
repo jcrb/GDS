@@ -18,3 +18,7 @@ La version EqulbreAB.md peut être transformée en PDF:
 - les images imprtées doivent être au format .png (svg non supporté)
 
 Permet d'avoir une version PDF de bonne qualité du diaporama.
+
+FILE<-"EqulibreAB"
+system(paste("pandoc -o ", FILE, ".pdf ", FILE, ".md", sep=""))
+

@@ -6,18 +6,19 @@ jeanclaude.bartier@gmail.com
 
 Pôle Anesthésie-Réanimation SAMU-SMUR-CESU
 
-date: 10/12/2013
+date: 10/10/2014
 
-PLAN
+PLAN: Acide-base
 ========================================================
 
 - Introduction
-- Rappel Physio-Pahologique
-- Les principales anomalies
+- Rappels Physio-Pahologiques
+- Les principales anomalies Acido-basiques
   - Acidose respiratoire
   - Acidose métabolique
   - Alcalose métabolique
   - Alcalose respiratoire
+
 
 Les troubles de l'équilibre acide-base (TAB)
 ========================================================
@@ -98,17 +99,17 @@ incremental: true
 
 Paramètre | Commentaire | Valeur normale  
 ----------|------------ |---------------
-$pH$      | acidité/alcanilité | $7,4$
-$PaCO_2$  | composante respiratoire | $40$ mmHg
-$bicarbonates$ | composante métabolique | $24$ meq/l
+$pH$      | acidité/alcanilité | $7,4 \pm 2$
+$PaCO_2$  | composante respiratoire | $40 \pm 2$ mmHg
+$bicarbonates$ | composante métabolique | $24 \pm 2$ meq/l
 
 - ionogramme  
 
 Paramètre | Commentaire | Valeur normale  
 ----------|------------ |---------------  
-$sodium$  | hydratation | 140 +/- 2 meq/l
-$potasium$ | tr.du rythme | 3,5 +/- 0,5 meq/l
-$chlore$ | TAB | 105 +/- 2 meq/l
+$sodium$  | hydratation | $140 \pm 2 meq/l$
+$potasium$ | tr.du rythme | $3,5 \pm 0,5 meq/l$
+$chlore$ | TAB | $105 \pm 2 meq/l$
 
 
 <!-- $PaO_2$   | oxygénation | $100$ mmHg -->
@@ -150,7 +151,7 @@ Les solutés alcalins
 =========================================================
 incremental: true
 
-- sont propsés dans le traitement **symptomatique** de l'acidose métabolique
+- sont proposés dans le traitement **symptomatique** de l'acidose métabolique
 - usage contreversé
 - ne remplace jamais le traitement étiologique
 - le plus utilisé: **bicarbonate de sodium**
@@ -182,9 +183,24 @@ Questions ?
 type: section
 
 
+Anomalies hydro-electrolytiques
+=========================================================
+type: section
+
+Plan
+====
+- Physio-pathologie
+  - définitions, notion de compartiments, l'eau dans l'organisme
+  - comment se font les échanges ?
+  - électrolytes, ions, osmolarité, natrémie
+  - déshydratation et hyperhydratation
+  - anomalies du potassium
+  - cas cliniques
+
 
 Définitions
 ===========
+incremental: true
 
 - solution = soluté + solvant
 - Un __solvant__ est une substance liquide qui a la propriété de dissoudre, de diluer ou d'extraire d’autres substances sans les modifier chimiquement et sans lui-même se modifier. L'__eau__ est le solvant le plus courant, la solution étant alors qualifiée de solution aqueuse.
@@ -193,6 +209,8 @@ Définitions
 
 Compartiments
 =============
+incremental: true
+
 - l'eau de l'organisme se répartit dans différents secteurs appelés __compartiments__ ou __secteurs__.
 - il y a 2 compartiments majeurs:
   - compartiment __extra-cellulaire__ où le _soluté_ majeur est le __sodium__ (__Na__trium)
@@ -206,9 +224,10 @@ eau
 
 Membrane cellulaire
 ===================
+incremental: true
+
 - Ce sont des membranes __semi-perméables__ : leur perméabilité est différente selon qu'il s'agisse du _solvant_ ou du _soluté_.
 - La membrane cellulaire expulse activement le NA en échange de K par l'intermédiaire de pompes fonctionnant avec de l'ATP.
-Cas cliniques
 - Cette inégalité de répartition des solutés de part et d'autre de la membrane cellulaire est responsable du phénomène d'__osmose__.
 - On appelle __concentration__ le rapport _solutés_ / volume du _compartiment_ (C = x g/l).
 - __L'eau se déplace toujours du compartiment le moins concentré vers le compartiment le plus concentré__.
@@ -224,6 +243,7 @@ Membane semi-perméable (2)
 
 Tonicité
 ========
+incremental: true
 
 - si les 2 compartiments sont à la même concentration, ils sont dits __isotoniques__.
 - si le compartiment __1__ est plus concentré que le compartiment __2__:
@@ -256,6 +276,8 @@ Les solutés
 
 Les électrolytes
 ================
+incremental: true
+
 - Substances se dissociant dans le solvant en particules chargées électriquement appelées __ions__.
 - $NaCl$ (sel de table) $\rightleftharpoons$ $Na^+ + OH^-$
 
@@ -271,9 +293,10 @@ Calcium |	90 à 100 mg/l |	2,25 à 2,5 mmol
 
 Osmolarité
 ==========
+incremental: true
 
 - c'est une mesure du nombre de particules dissoutes dans le plasma
-- unité = __osmoles__ ou milliosmoles (mosm) ar litre.
+- unité = __osmoles__ ou milliosmoles (mosm) par litre.
 - valeur normale: __300 mosm/l__ (295 - 305)
 - Tout soluté de perfusion ayant la même osmolarité est __isotonique__ :
   - sérum glucosé à 5%
@@ -296,6 +319,7 @@ type: section
 
 Deshydratation globale
 ======================
+incremental: true
 
 - mécanisme: perte d'eau 
 - compensation par le secteur intra-cellulaire
@@ -309,6 +333,8 @@ Deshydratation globale
 
 Où perd t'on de l'eau ?
 =======================
+incremental: true
+
 - Perte sanguine
   - sang total: hémorragie (50% masse sanguine)
 - Pertes digestives
@@ -317,25 +343,28 @@ Où perd t'on de l'eau ?
 - Pertes cutanées
   - sueurs (mines, tenues NRBC, coup de chaleur)
   - plasma: brûlure étendue (mortalité précoce)
+- Pertes rénales
+  - hyperglycémie
+  - diabète insipide
 - Troisième secteur
-  - péritonite
-  - pancréatite
-  - occlusion
+  - péritonite, pancréatite, occlusion
 
 Signes de déshydratation
 =========================
+incremental: true
+
 - soif intense (agitation)
 - perte de poids
 - somnolence, confusion
 - pli cutanné (front, manubrium sternal)
-- sécheresse des muqueues
+- sécheresse des muqueuses
 - constantes
   - tachycardie
   - hypotension
   - hyperthermie
   - oligoanurie
 
-__Attention__ aux âges extrèmes de la vie et aux patients qui ne s'expriment pas (Démence sénile, réanimation, psychiatrie, AVC)
+- __Attention__ aux âges extrèmes de la vie et aux patients qui ne s'expriment pas (Démence sénile, réanimation, psychiatrie, AVC)
 
 Signes de déshydratation (2)
 =========================
@@ -346,6 +375,7 @@ Signes de déshydratation (2)
 
 Traitement de la déshydratation
 ==============================
+incremental: true
 
 __symptomatique__
 - Urgence (collapsus): remlissage massif: objectif PA > 80 mmHg (maromolécules)
@@ -353,16 +383,73 @@ __symptomatique__
 - sinon favoriser la __voie orale__ (eau gélifiée)
 
 __étiologique__
-- transusion
+- transfusion
 - apport d'électrolytes
 
 Hyperhydratation
 ==================
+incremental: true
 - mécanisme
-  - apports massifs de solutés hypotoniques
+  - apports massifs de solutés hypotoniques, rétention d'eau de de sel
   - dilution du secteur extracellulaire
   - transfert d'eau vers le secteur intracellulaire
   - oedèmes tisulaires
+
+Hyperhydratation: signes
+=======================
+incremental: true
+
+- __prise de poids__
+- __oedèmes__
+- __dégout de l'eau__
+- signe neurologiques: crampes, céphalées, convulsions
+- biologie:
+  - __hyponatrémie__
+
+Hyperhydratation: traitement
+==================
+- __restriction hydrique__
+- diurétiques
+- épuration extra-rénale dans les formes graves.
+
+Hyperkaliémie
+=============
+incremental: true
+
+- $K^+ > 4,5 mmol/l$
+- complication majeure: __ACR en FV__
+- ECG: ondes T amples et symétriques
+- Traitement
+  - stopper les apports de potassium (Ringer)
+  - résine échangeuses (Kayexalate)
+  - diurétique rapide (furosémide)
+  - bicarbonate de sodium
+  - Glucose + insuline
+  - Epuration extra-rénale
+  
+Hyperkaliémie (ECG)
+=============
+![hyperk](460px-ECG_in_hyperkalemia.png)
+
+source: http://www.wikiwand.com/fr/Hyperkali%C3%A9mie
+
+Hypokaliémie
+============
+incremental: true
+
+- $K^+ < 3,5 mmol/l$
+- clinique pauvre: crampes
+- ECG: apparition d'une onde U
+- traitement
+  - pas urgent: __PO__
+  - urgent: __Jamais de potassium en IVD__
+    - max. 1,5 g de K/heure au PSE
+
+Hypokaliémie (ECG)
+====
+![hypok](tm1a8terhypokaliemieondeu.png)
+
+source: http://www.e-cardiogram.com/ecg-banque.php?idcat=8&idscat=62&PHPSESSID=b1023999db1f48b9a3af5ca207ac2154
 
 
 Cas Cliniques
@@ -372,6 +459,7 @@ type: section
 
 Syndrome des buveurs de bière
 =============================
+incremental: true
 
 H 50 ans amené par ambulance pour crise convulsive inaugurale. A l'examen, le patient est confus, et présente un tremblement au repos. Connu pour être un buveur de bière (plus de 5 litres par jour). En dehors d'une hépatomégalie, l'examen clinique est normal.  
 
@@ -381,6 +469,8 @@ H 50 ans amené par ambulance pour crise convulsive inaugurale. A l'examen, le p
 
 Syndrome des buveurs de bière
 =============================
+incremental: true
+
 Une gazométrie et un ionogramme sont prélevés:  
 
 - sodium: 110 mmoles/L
@@ -396,7 +486,9 @@ Le patient est-il deshydraté, hyperhydraté, en alcalose respiratoire ou métab
 
 Même le coca-cola (sans sucre) est dangereux!
 =============================================
-Une femme de __54 an__s est admise pour un __état de mal convulsif__. Ce n'est pas une épileptique connue, mais elle est traitée pour dépression et éthylisme. Il n'y a pas de sevrage brutal de l'alcool. Son mari signale la prise de  __9 litres__ de coca sans sucre dans la journée. Les crises convulsives sont stoppées par 10 mg de diazépam IV.  
+incremental: true
+
+Une femme de __54 ans__ est admise pour un __état de mal convulsif__. Ce n'est pas une épileptique connue, mais elle est traitée pour dépression et éthylisme. Il n'y a pas de sevrage brutal de l'alcool. Son mari signale la prise de  __9 litres__ de coca sans sucre dans la journée. Les crises convulsives sont stoppées par 10 mg de diazépam IV.  
 Le bilan biologique est le suivant:
 
 - natrémie: 109 mmoles/L
