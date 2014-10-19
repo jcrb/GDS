@@ -83,13 +83,14 @@ vic<-cic
 plot(0,xlim=c(-25,35),ylim=c(0,400),main="Diagramme de Darrow",xlab="Volume (litres)",ylab="Osmolarité",sub="Deshydratation globale")
 abline(v=0)
 abline(h=300,lty=2)
-text(-10,350,"extra-cellulaire")
-text(10,350,"intra-cellulaire")
-rect(-15,0,0,300,col="green",density=5)
-rect(0,0,25,300,col="yellow",density=5)
+text(-10,390,"extra-cellulaire")
+text(10,390,"intra-cellulaire")
+# rect(-15,0,0,300,col="green",density=5)
+# rect(0,0,25,300,col="yellow",density=5)
+
 #rectanbles intra et extra cellulaires
-rec<-rect(-vec,0,0,osm_normale)
-ric<-rect(0,0,vic,osm_normale)
+rec<-rect(-vec, 0, 0, osm_normale, col="green", density=5)
+ric<-rect(0, 0, vic, osm_normale, col="yellow", density=5)
 
 # deshydratation
 vec<-cec
@@ -100,6 +101,7 @@ P<-P+dp
 vec<-vec+dp
 osm_ec<-osmoles_ec/vec
 rec<-rect(-vec,0,0,osm_ec,border="blue")
+# compensation
 et<-vec+vic
 osm_actuelle<-osmoles_totales/et
 vic<-0.4*P
