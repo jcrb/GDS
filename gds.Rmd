@@ -6,6 +6,10 @@ Transformer .md en .pdf
 FILE<-"cas cliniques"
 system(paste("pandoc -o ", FILE, ".pdf ", FILE, ".md", sep=""))
 
+FILE<-"gds"
+system(paste("pandoc -o ", FILE, ".pdf ", FILE, ".md", sep=""))
+
+
 Initialisation
 --------------
 ```{r}
