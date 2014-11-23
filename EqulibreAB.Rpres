@@ -1,12 +1,14 @@
+
 Equlibre Acide - Base
 ========================================================
 author: Dr JC Bartier
+autosize: true
 
 jeanclaude.bartier@gmail.com
 
 Pôle Anesthésie-Réanimation SAMU-SMUR-CESU
 
-date: 10/10/2014
+date: 10/11/2014
 
 PLAN: Acide-base
 ========================================================
@@ -82,6 +84,18 @@ incremental: true
   - acide lactique <-> $lactates^- + H^+$
 
 Les gaz du sang (technique)
+=========================================================
+
+__REGLEMENTATION__
+
+Décret du 29 juillet 2004 ,article 4311.7
+36ème alinéa
+« L'infirmière est habilitée à accomplir sur prescription médicale écrite quantitative et qualitative, datée et signée, les actes et soins infirmiers suivants, à condition qu'un médecin puisse intervenir à tout moment :...Prélèvement de sang artériel pour gazométrie ... »
+
+![Prélèvement artériel dans l'artère radiale, après test d'Allen.](gaz_sang.jpg)
+
+
+Les gaz du sang (technique 2)
 =========================================================
 incremental: true
 
@@ -220,7 +234,7 @@ incremental: true
 eau
 ===
 
-![eau_tot](liquides.png)
+![Répartition de l'eau dans l'oganisme.](liquides.png)
 
 Membrane cellulaire
 ===================
@@ -234,12 +248,12 @@ incremental: true
 
 Membane semi-perméable (1)
 ======================
-![membrane](Scheme_simple_diffusion_in_cell_membrane-en.png)
+![membrane semi-perméable](Scheme_simple_diffusion_in_cell_membrane-en.png)
 
 Membane semi-perméable (2)
 ======================
 
-![membrane](Scheme_sodium-potassium_pump-en.png)
+![Pompes transmembranaires NaK-ATPase dépendantes](Scheme_sodium-potassium_pump-en.png)
 
 Tonicité
 ========
@@ -256,8 +270,9 @@ Hémolyse
 ========
 
 - Hémo = sang, lyse = destruction
-![membrane](Osmotic_pressure_on_blood_cells_diagram.png)
 - L'eau pure (eau ppi) est hypotonique.
+
+![Dans un milieu hypotonique, le GR se remplit d'eau jusqu'à éclater. C'est l'hémolyse.](Osmotic_pressure_on_blood_cells_diagram.png)
 
 Les solutés
 ===========
@@ -273,6 +288,7 @@ Les solutés
   - Magnésium
   - Bicarbonates
   - Lactates
+  - Phosphate
 
 Les électrolytes
 ================
@@ -391,6 +407,7 @@ Hyperhydratation
 incremental: true
 - mécanisme
   - apports massifs de solutés hypotoniques, rétention d'eau de de sel
+  - exemple: __insuffisance cardiaque__
   - dilution du secteur extracellulaire
   - transfert d'eau vers le secteur intracellulaire
   - oedèmes tisulaires
