@@ -236,6 +236,18 @@ eau
 
 ![Répartition de l'eau dans l'oganisme.](liquides.png)
 
+Le sodium (NA)
+================
+
+- Les mouvements de l'eau dans l'organisme sont étroitement liés à ceux du __sodium__
+- l'ion sodium est toujours entouré d'une "sphère" d'eau qu'il entraîne avec lui au cours de ses déplacements.
+
+---  
+
+![Le sodium est un ion fortement hydraté. Il est entouré d'un groupe de 6 à 8 molécules d'eau.](ion_na.png)
+
+
+
 Membrane cellulaire
 ===================
 incremental: true
