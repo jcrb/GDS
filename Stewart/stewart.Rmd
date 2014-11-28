@@ -1,0 +1,49 @@
+---
+title: "stewart"
+author: "JcB"
+date: "28/11/2014"
+output: html_document
+---
+
+Stewart
+=======
+
+hv <- 4.5e-8
+-log10(hv)
+ha <- 4e-8
+-log10(ha)
+
+
+Chapitre 5
+==========
+
+```{r}
+# Srewart p.50
+kw <- function(t = 273+37){
+  return(8.754 * 10e-10 * exp(-1.01 * 10e6 / (t * t)))
+}
+
+pH <- function(h){
+  return(-log10(h))
+}
+
+# calcul de la [h+]
+eq_5A11 <- function(sid, akw = 4.3e-16, aka, atot){
+  # set value par défaut de H-
+  hi <- 1.0
+  ho <- 4.4e-14
+  crit <- 1e-6
+  fh <- 1
+  
+  while((abs(fh) > crit){
+    h <- sqrt(hi * ho)
+    oh <- akw / h
+    a <- aka * atot / (aka + h)
+    fh <- sid + h -oh -a
+    ifelse( h > 0, hi = h, lo = h)
+  }
+
+  return(h)
+}
+```
+
