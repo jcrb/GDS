@@ -112,10 +112,12 @@ Les gaz du sang (résultats)
 incremental: true
 
 Paramètre | Commentaire | Valeur normale  
-----------|------------ |---------------
+----------|------------ |:---------------:|
 $pH$      | acidité/alcanilité | $7,4 \pm 2$
 $PaCO_2$  | composante respiratoire | $40 \pm 2$ mmHg
 $bicarbonates$ | composante métabolique | $24 \pm 2$ meq/l
+$PaO_2$  |  pression en $O_2$ artériel  | $100 \pm 2$ mmHg
+$SaO_2$  |  saturation artérielle en $O_2$ | $100\%$  
 
 - ionogramme  
 
@@ -546,10 +548,10 @@ Le bilan biologique est le suivant (gazométrie artérielle prélevée sous O2):
 
 ---
 
-- pH: 731
+- pH: 7.31
 - pCO2: 2.6 kPa (19.5 mmHg)
 - pO2: 17 kPa (127 mmHg)
-- bicarbnates: 10 mmoles/L
+- bicarbonates: 10 mmoles/L
 - saturation en O2: 98%
 
 ---
@@ -558,7 +560,7 @@ Quel es tle statut hydro-électolytique et acido-basique de ce patient? Quel tra
 
 Mamie à eu chaud...
 ===================
-C'est l'été 2006 et il fait très chaud. Paulette 86 ans est copieusement hydratée par son aide -ménagère comme le recommande la radio. Pourtant l'état général de Paulette se dégrade: une confusion temporo-spatiale s'aggarve , fait des fausses reconnaissances, refuse les boissons qui lui sont proposées. Un matin elle est retrouvée au sol, très confuse avec une hémipégie/parésie droite. Compte tenu de l'age et de l'absence de possibilités thérapeutiques, le médecin traitant en accord avec la famille décide de ne pas l'hospitaliser. Il prescrit cependant une prise de sang. Les résultats sont les suivants:
+C'est l'été 2006 et il fait très chaud. Paulette 86 ans est copieusement hydratée par son aide -ménagère comme le recommande la radio. Pourtant l'état général de Paulette se dégrade: une confusion temporo-spatiale s'aggrave , fait des fausses reconnaissances, refuse les boissons qui lui sont proposées. Un matin elle est retrouvée au sol, très confuse avec une hémipégie/parésie droite. Compte tenu de l'age et de l'absence de possibilités thérapeutiques, le médecin traitant en accord avec la famille décide de ne pas l'hospitaliser. Il prescrit cependant une prise de sang. Les résultats sont les suivants:
 
 Mamie à eu chaud...
 ===================
@@ -581,7 +583,8 @@ L'organisation mondiale de la santé (OMS) recommande de réhydrater les enfants
 - chlore: 65 mmol
 - potassium: 20 mmol
 - citrate: 10 mmol
-soit au total 250 mosm/L  
+
+soit au total __250 mosm/L__  
 
 Cette solution est hypotonique par rapport à l'osmolarité du plasma et très sucrée (respectivement 300 mOsm/L et 1g/L). Pouvez-vous expliquer pourquoi ?
 
