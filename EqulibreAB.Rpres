@@ -8,7 +8,7 @@ jeanclaude.bartier@gmail.com
 
 Pôle Anesthésie-Réanimation SAMU-SMUR-CESU
 
-date: 10/11/2014
+date: 5/10/2015
 
 PLAN: Acide-base
 ========================================================
@@ -106,6 +106,7 @@ incremental: true
   - éliminer soigneusement les **bulles d'air**
   - fermeture **hermétique** du tube
   - conservation sur **glace**
+  
 
 Les gaz du sang (résultats)
 =========================================================
@@ -113,7 +114,7 @@ incremental: true
 
 Paramètre | Commentaire | Valeur normale  
 ----------|------------ |:---------------:|
-$pH$      | acidité/alcanilité | $7,4 \pm 2$
+$pH$      | acidité/alcalinité | $7,4 \pm 2$
 $PaCO_2$  | composante respiratoire | $40 \pm 2$ mmHg
 $bicarbonates$ | composante métabolique | $24 \pm 2$ meq/l
 $PaO_2$  |  pression en $O_2$ artériel  | $100 \pm 2$ mmHg
@@ -248,6 +249,16 @@ Le sodium (NA)
 
 ![Le sodium est un ion fortement hydraté. Il est entouré d'un groupe de 6 à 8 molécules d'eau.](ion_na.png)
 
+
+Expérience de Dutrochet
+=======================
+
+![dutrochet](dutrochet.jpg)
+
+---
+
+- une cloche remplie d'eau salée et fermée par une membrane semi-perméable (vessie de porc) est plongée dans on récipient d'eau pure.
+- Au bout de quelques temps, le niveau de liquide s'élève dans la cloche, proportionnellement à la concentration de sel initiale.
 
 
 Membrane cellulaire
