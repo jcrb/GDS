@@ -92,7 +92,7 @@ Décret du 29 juillet 2004 ,article 4311.7
 36ème alinéa
 « L'infirmière est habilitée à accomplir sur prescription médicale écrite quantitative et qualitative, datée et signée, les actes et soins infirmiers suivants, à condition qu'un médecin puisse intervenir à tout moment :...Prélèvement de sang artériel pour gazométrie ... »
 
-![Prélèvement artériel dans l'artère radiale, après test d'Allen.](gaz_sang.jpg)
+![Prélèvement artériel dans l'artère radiale, après test d'Allen.](img/gaz_sang.jpg)
 
 
 Les gaz du sang (technique 2)
@@ -237,7 +237,7 @@ incremental: true
 eau
 ===
 
-![Répartition de l'eau dans l'oganisme.](liquides.png)
+![Répartition de l'eau dans l'oganisme.](img/liquides.png)
 
 Le sodium (NA)
 ================
@@ -247,13 +247,13 @@ Le sodium (NA)
 
 ---  
 
-![Le sodium est un ion fortement hydraté. Il est entouré d'un groupe de 6 à 8 molécules d'eau.](ion_na.png)
+![Le sodium est un ion fortement hydraté. Il est entouré d'un groupe de 6 à 8 molécules d'eau.](img/ion_na.png)
 
 
 Expérience de Dutrochet
 =======================
 
-![dutrochet](dutrochet.jpg)
+![dutrochet](img/dutrochet.jpg)
 
 ---
 
@@ -273,12 +273,12 @@ incremental: true
 
 Membane semi-perméable (1)
 ======================
-![membrane semi-perméable](Scheme_simple_diffusion_in_cell_membrane-en.png)
+![membrane semi-perméable](img/Scheme_simple_diffusion_in_cell_membrane-en.png)
 
 Membane semi-perméable (2)
 ======================
 
-![Pompes transmembranaires NaK-ATPase dépendantes](Scheme_sodium-potassium_pump-en.png)
+![Pompes transmembranaires NaK-ATPase dépendantes](img/Scheme_sodium-potassium_pump-en.png)
 
 Tonicité
 ========
@@ -297,7 +297,7 @@ Hémolyse
 - Hémo = sang, lyse = destruction
 - L'eau pure (eau ppi) est hypotonique.
 
-![Dans un milieu hypotonique, le GR se remplit d'eau jusqu'à éclater. C'est l'hémolyse.](Osmotic_pressure_on_blood_cells_diagram.png)
+![Dans un milieu hypotonique, le GR se remplit d'eau jusqu'à éclater. C'est l'hémolyse.](img/Osmotic_pressure_on_blood_cells_diagram.png)
 
 Les solutés
 ===========
@@ -387,8 +387,12 @@ incremental: true
 - Pertes rénales
   - hyperglycémie
   - diabète insipide
+
+=== 
 - Troisième secteur
-  - péritonite, pancréatite, occlusion
+  - péritonite
+  - pancréatite aiguë
+  - occlusion intestinale
 
 Signes de déshydratation
 =========================
@@ -404,8 +408,14 @@ incremental: true
   - hypotension
   - hyperthermie
   - oligoanurie
+  
+======
 
-- __Attention__ aux âges extrèmes de la vie et aux patients qui ne s'expriment pas (Démence sénile, réanimation, psychiatrie, AVC)
+- __Attention__ aux âges extrèmes de la vie et aux patients qui ne s'expriment pas
+    - Démence sénile
+    - patient intubé (réanimation)
+    - psychiatrie
+    - AVC
 
 Signes de déshydratation (2)
 =========================
@@ -471,7 +481,7 @@ incremental: true
   
 Hyperkaliémie (ECG)
 =============
-![hyperk](460px-ECG_in_hyperkalemia.png)
+![hyperk](img/460px-ECG_in_hyperkalemia.png)
 
 source: http://www.wikiwand.com/fr/Hyperkali%C3%A9mie
 
@@ -489,7 +499,7 @@ incremental: true
 
 Hypokaliémie (ECG)
 ====
-![hypok](tm1a8terhypokaliemieondeu.png)
+![hypok](img/tm1a8terhypokaliemieondeu.png)
 
 source: http://www.e-cardiogram.com/ecg-banque.php?idcat=8&idscat=62&PHPSESSID=b1023999db1f48b9a3af5ca207ac2154
 
@@ -536,7 +546,11 @@ Le bilan biologique est le suivant:
 - natrémie: 109 mmoles/L
 - osmolarité: 232 mOsm/L
 
-Comment peut-on expliquer ce qui s'est passé ? Les troubles neurologiques sont-ils dus à une deshydratation, une hyperhydratation, à un élément toxique du coca-cola (eau, aspartame 550 mg, cola, caféine) ?
+Coca (suite)
+============
+Comment peut-on expliquer ce qui s'est passé ?
+
+Les troubles neurologiques sont-ils dus à une deshydratation, une hyperhydratation, à un élément toxique du coca-cola (eau, aspartame 550 mg, cola, caféine) ?
 
 Une diarrhée de fou
 ===================
@@ -573,7 +587,7 @@ Mamie à eu chaud...
 ===================
 C'est l'été 2006 et il fait très chaud. Paulette 86 ans est copieusement hydratée par son aide -ménagère comme le recommande la radio. Pourtant l'état général de Paulette se dégrade: une confusion temporo-spatiale s'aggrave , fait des fausses reconnaissances, refuse les boissons qui lui sont proposées. Un matin elle est retrouvée au sol, très confuse avec une hémipégie/parésie droite. Compte tenu de l'age et de l'absence de possibilités thérapeutiques, le médecin traitant en accord avec la famille décide de ne pas l'hospitaliser. Il prescrit cependant une prise de sang. Les résultats sont les suivants:
 
-Mamie à eu chaud...
+Mamie a eu chaud...
 ===================
 - GR: 4.2 M/ml
 - Hb: 13.1 g/dl
@@ -596,6 +610,8 @@ L'organisation mondiale de la santé (OMS) recommande de réhydrater les enfants
 - citrate: 10 mmol
 
 soit au total __250 mosm/L__  
+
+=====
 
 Cette solution est hypotonique par rapport à l'osmolarité du plasma et très sucrée (respectivement 300 mOsm/L et 1g/L). Pouvez-vous expliquer pourquoi ?
 
