@@ -124,7 +124,7 @@ incremental: true
 
 Paramètre | Commentaire | Valeur normale  
 ----------|------------ |:---------------:|
-$pH$      | acidité/alcalinité | $7,4 \pm 2$
+$pH$      | acidité/alcalinité | $7,4 \pm 0.02$
 $PaCO_2$  | composante respiratoire | $40 \pm 2$ mmHg
 $bicarbonates$ | composante métabolique | $24 \pm 2$ meq/l
 $PaO_2$  |  pression en $O_2$ artériel  | $100 \pm 2$ mmHg
