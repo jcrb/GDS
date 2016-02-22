@@ -1,16 +1,25 @@
 
 Equlibre Acide - Base
 ========================================================
-author: Dr JC Bartier
-autosize: true
+auteur: Dr JC Bartier
 
 jeanclaude.bartier@gmail.com
 
 Pôle Anesthésie-Réanimation SAMU-SMUR-CESU
 
-date: 5/10/2015
+Hopitaux Universitaires de Strasbourg
 
-PLAN: Acide-base
+date: 22/02/2016
+
+Plan général
+============
+
+- Introduction
+- Equilibre acide-base
+- Equilibre hydro-électroytique
+- Cas cliniques
+
+Equilibre Acide-Base
 ========================================================
 
 - Introduction
@@ -24,7 +33,7 @@ PLAN: Acide-base
 
 Les troubles de l'équilibre acide-base (TAB)
 ========================================================
-incremental: true
+
 
 - Ce sont des **anomalies biologiques** qui accompagnent tous les *dysfonctionnements aigus* des grandes fonctions vitales.
 - Leur mise en évidence nécessite un examen sanguin spécifique appelé **gaz du sang**
@@ -34,7 +43,7 @@ incremental: true
 
 Physio-pathologie
 ========================================================
-incremental: true
+
 
 - Le système acido-basique le plus simple est le verre d'eau
 - Arrhenius (1887) définit un **acide** une substance qui produit des ions $H^+$
@@ -44,7 +53,7 @@ incremental: true
 
 Notion de Potentiel Hydrogène (pH)
 ========================================================
-incremental: true
+
 
 - à $37°C$ il y a **$0,00000004$** meq ion $H^+$ par litre de plasma 
 
@@ -60,7 +69,7 @@ incremental: true
 
 En pratique
 =========================================================
-incremental: true
+
 
 - Si la $[H^+]$ **augmente** le **pH diminue**
   - on parle d'**acidose** ($pH < 7,38$)
@@ -70,7 +79,7 @@ incremental: true
   
 Origine des ions Hydrogène
 ==========================================================
-incremental: true
+
 
 - **Respiratoire**
   - $O_2 + Glucose -> CO_2 + H_2O + 38 ATP$ (Krebs)
@@ -97,7 +106,7 @@ Décret du 29 juillet 2004 ,article 4311.7
 
 Les gaz du sang (technique 2)
 =========================================================
-incremental: true
+
 
 - on prélève du sang **artériel** 
 
@@ -110,7 +119,7 @@ incremental: true
 
 Les gaz du sang (résultats)
 =========================================================
-incremental: true
+
 
 Paramètre | Commentaire | Valeur normale  
 ----------|------------ |:---------------:|
@@ -133,7 +142,7 @@ $chlore$ | TAB | $105 \pm 2 meq/l$
 
 En pratique
 =========================================================
-incremental: true
+
 
  | Respiratoire | Métabolique | pH
 ---|--------------|-------------|------
@@ -142,7 +151,7 @@ Alcalose | PaCO2 diminuée | bicarbonates augmentés| pH > 7.42
 
 Acidose respiratoire
 =========================================================
-incremental: true
+
 
 - défaut d'élimination du CO2
 - ex: décompensation respiratoire d'une BPCO
@@ -150,7 +159,7 @@ incremental: true
 
 Acidose métabolique
 =========================================================
-incremental: true
+
 
 - accumulation d'**acides non volatiles**
 
@@ -166,7 +175,7 @@ incremental: true
   
 Les solutés alcalins
 =========================================================
-incremental: true
+
 
 - sont proposés dans le traitement **symptomatique** de l'acidose métabolique
 - usage contreversé
@@ -179,7 +188,7 @@ incremental: true
 
 Alcalose métabolique
 =========================================================
-incremental: true
+
 
 - pertes importantes d'acide
   - vomissements
@@ -187,7 +196,7 @@ incremental: true
   
 Alcalose respiratoire
 =========================================================
-incremental: true
+
 
 - mécanisme = hyperventilation
 - psychogène (crise de tétanie)
@@ -217,7 +226,7 @@ Plan
 
 Définitions
 ===========
-incremental: true
+
 
 - solution = soluté + solvant
 - Un __solvant__ est une substance liquide qui a la propriété de dissoudre, de diluer ou d'extraire d’autres substances sans les modifier chimiquement et sans lui-même se modifier. L'__eau__ est le solvant le plus courant, la solution étant alors qualifiée de solution aqueuse.
@@ -226,7 +235,7 @@ incremental: true
 
 Compartiments
 =============
-incremental: true
+
 
 - l'eau de l'organisme se répartit dans différents secteurs appelés __compartiments__ ou __secteurs__.
 - il y a 2 compartiments majeurs:
@@ -250,7 +259,7 @@ Le sodium (NA)
 ![Le sodium est un ion fortement hydraté. Il est entouré d'un groupe de 6 à 8 molécules d'eau.](img/ion_na.png)
 
 
-Expérience de Dutrochet
+Expérience de Dutrochet (1827)
 =======================
 
 ![dutrochet](img/dutrochet.jpg)
@@ -263,7 +272,7 @@ Expérience de Dutrochet
 
 Membrane cellulaire
 ===================
-incremental: true
+
 
 - Ce sont des membranes __semi-perméables__ : leur perméabilité est différente selon qu'il s'agisse du _solvant_ ou du _soluté_.
 - La membrane cellulaire expulse activement le NA en échange de K par l'intermédiaire de pompes fonctionnant avec de l'ATP.
@@ -282,7 +291,7 @@ Membane semi-perméable (2)
 
 Tonicité
 ========
-incremental: true
+
 
 - si les 2 compartiments sont à la même concentration, ils sont dits __isotoniques__.
 - si le compartiment __1__ est plus concentré que le compartiment __2__:
@@ -317,7 +326,7 @@ Les solutés
 
 Les électrolytes
 ================
-incremental: true
+
 
 - Substances se dissociant dans le solvant en particules chargées électriquement appelées __ions__.
 - $NaCl$ (sel de table) $\rightleftharpoons$ $Na^+ + OH^-$
@@ -332,9 +341,19 @@ Chlore |	95 à 105 mEq/l |	95 à 105 mmol/l
 Bicarbonates |	22 à 30 mEq/l |	22 à 30 mmol
 Calcium |	90 à 100 mg/l |	2,25 à 2,5 mmol
 
+Equivalent ou milliéquivalent
+=============================
+
+
+- ne s'applique qu'aux solutés qui se dissocient dans un solvant
+- eq = $\frac{masse \ atomique}{valence}$ 
+- valence = nombre de charges électriques
+- ex: $Ca^{++} = \frac{40,1}{2} = 20 mg/l$
+- Pour les ions monovalents, la concentration en eq/l est identique à la concentration en moles/l.
+
 Osmolarité
 ==========
-incremental: true
+
 
 - c'est une mesure du nombre de particules dissoutes dans le plasma
 - unité = __osmoles__ ou milliosmoles (mosm) par litre.
@@ -360,7 +379,7 @@ type: section
 
 Deshydratation globale
 ======================
-incremental: true
+
 
 - mécanisme: perte d'eau 
 - compensation par le secteur intra-cellulaire
@@ -374,7 +393,7 @@ incremental: true
 
 Où perd t'on de l'eau ?
 =======================
-incremental: true
+
 
 - Perte sanguine
   - sang total: hémorragie (50% masse sanguine)
@@ -396,7 +415,7 @@ incremental: true
 
 Signes de déshydratation
 =========================
-incremental: true
+
 
 - soif intense (agitation)
 - perte de poids
@@ -426,7 +445,7 @@ Signes de déshydratation (2)
 
 Traitement de la déshydratation
 ==============================
-incremental: true
+
 
 __symptomatique__
 - Urgence (collapsus): remlissage massif: objectif PA > 80 mmHg (maromolécules)
@@ -439,7 +458,7 @@ __étiologique__
 
 Hyperhydratation
 ==================
-incremental: true
+
 - mécanisme
   - apports massifs de solutés hypotoniques, rétention d'eau de de sel
   - exemple: __insuffisance cardiaque__
@@ -449,7 +468,7 @@ incremental: true
 
 Hyperhydratation: signes
 =======================
-incremental: true
+
 
 - __prise de poids__
 - __oedèmes__
@@ -466,7 +485,7 @@ Hyperhydratation: traitement
 
 Hyperkaliémie
 =============
-incremental: true
+
 
 - $K^+ > 4,5 mmol/l$
 - complication majeure: __ACR en FV__
@@ -487,7 +506,7 @@ source: http://www.wikiwand.com/fr/Hyperkali%C3%A9mie
 
 Hypokaliémie
 ============
-incremental: true
+
 
 - $K^+ < 3,5 mmol/l$
 - clinique pauvre: crampes
@@ -511,7 +530,7 @@ type: section
 
 Syndrome des buveurs de bière
 =============================
-incremental: true
+
 
 H 50 ans amené par ambulance pour crise convulsive inaugurale. A l'examen, le patient est confus, et présente un tremblement au repos. Connu pour être un buveur de bière (plus de 5 litres par jour). En dehors d'une hépatomégalie, l'examen clinique est normal.  
 
@@ -521,24 +540,23 @@ H 50 ans amené par ambulance pour crise convulsive inaugurale. A l'examen, le p
 
 Syndrome des buveurs de bière
 =============================
-incremental: true
 
 Une gazométrie et un ionogramme sont prélevés:  
 
-- sodium: 110 mmoles/L
-- potassium: 2,5 mmols/L
-- chlore: 90 mmoles/L
-- glycémie: 5,5 mmoles/L
-- pH: 7,5
-- bicarbonates: 30 mmoles/L
-- pCO2: 39.55 mmHg
+- sodium: 110 mmoles/L (N = 140)
+- potassium: 2,5 mmols/L (N = 4)
+- chlore: 90 mmoles/L (N = 110)
+- glycémie: 5,5 mmoles/L (N = 5.5)
+- pH: 7,5 (N = 7,4)
+- bicarbonates: 30 mmoles/L (N = 24)
+- pCO2: 39.55 mmHg (N = 40)
 
-Le patient est-il deshydraté, hyperhydraté, en alcalose respiratoire ou métabolique ?
+Le patient est-il deshydraté, hyperhydraté, en acidose/alcalose respiratoire ou métabolique ?
 
 
 Même le coca-cola (sans sucre) est dangereux!
 =============================================
-incremental: true
+
 
 Une femme de __54 ans__ est admise pour un __état de mal convulsif__. Ce n'est pas une épileptique connue, mais elle est traitée pour dépression et éthylisme. Il n'y a pas de sevrage brutal de l'alcool. Son mari signale la prise de  __9 litres__ de coca sans sucre dans la journée. Les crises convulsives sont stoppées par 10 mg de diazépam IV.  
 Le bilan biologique est le suivant:

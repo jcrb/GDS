@@ -8,9 +8,19 @@ jeanclaude.bartier@gmail.com
 
 Pôle Anesthésie-Réanimation SAMU-SMUR-CESU
 
-date: 5/10/2015
+Hopitaux Universitaires de Strasbourg
 
-PLAN: Acide-base
+date: 22/02/2016
+
+Plan général
+============
+
+- Introduction
+- Equilibre acide-base
+- Equilibre hydro-électroytique
+- Cas cliniques
+
+Equilibre Acide-Base
 ========================================================
 
 - Introduction
@@ -250,7 +260,7 @@ Le sodium (NA)
 ![Le sodium est un ion fortement hydraté. Il est entouré d'un groupe de 6 à 8 molécules d'eau.](img/ion_na.png)
 
 
-Expérience de Dutrochet
+Expérience de Dutrochet (1827)
 =======================
 
 ![dutrochet](img/dutrochet.jpg)
@@ -331,6 +341,16 @@ Potassium  |	3,5 à 5 mEq/l |	3,5 à 5 mmol
 Chlore |	95 à 105 mEq/l |	95 à 105 mmol/l
 Bicarbonates |	22 à 30 mEq/l |	22 à 30 mmol
 Calcium |	90 à 100 mg/l |	2,25 à 2,5 mmol
+
+Equivalent ou milliéquivalent
+=============================
+incremental: true
+
+- ne s'applique qu'aux solutés qui se dissocient dans un solvant
+- eq = $\frac{masse \ atomique}{valence}$ 
+- valence = nombre de charges électriques
+- ex: $Ca^{++} = \frac{40,1}{2} = 20 mg/l$
+- Pour les ions monovalents, la concentration en eq/l est identique à la concentration en moles/l.
 
 Osmolarité
 ==========
@@ -521,19 +541,18 @@ H 50 ans amené par ambulance pour crise convulsive inaugurale. A l'examen, le p
 
 Syndrome des buveurs de bière
 =============================
-incremental: true
 
 Une gazométrie et un ionogramme sont prélevés:  
 
-- sodium: 110 mmoles/L
-- potassium: 2,5 mmols/L
-- chlore: 90 mmoles/L
-- glycémie: 5,5 mmoles/L
-- pH: 7,5
-- bicarbonates: 30 mmoles/L
-- pCO2: `r source("gds.R"); round(gds(pH=7.5,bic=30),2)` mmHg
+- sodium: 110 mmoles/L (N = 140)
+- potassium: 2,5 mmols/L (N = 4)
+- chlore: 90 mmoles/L (N = 110)
+- glycémie: 5,5 mmoles/L (N = 5.5)
+- pH: 7,5 (N = 7,4)
+- bicarbonates: 30 mmoles/L (N = 24)
+- pCO2: `r source("gds.R"); round(gds(pH=7.5,bic=30),2)` mmHg (N = 40)
 
-Le patient est-il deshydraté, hyperhydraté, en alcalose respiratoire ou métabolique ?
+Le patient est-il deshydraté, hyperhydraté, en acidose/alcalose respiratoire ou métabolique ?
 
 
 Même le coca-cola (sans sucre) est dangereux!
